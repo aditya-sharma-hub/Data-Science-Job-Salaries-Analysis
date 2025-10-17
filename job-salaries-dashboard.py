@@ -196,7 +196,7 @@ def generate_explanation(df, input_experience, input_residence, base_salary, loc
     """
 
 # --- 3. SIDEBAR NAVIGATION ---
-st.sidebar.markdown(f'<h1 style="color:#00C4CC;">DS SALARY APP</h1>', unsafe_allow_html=True)
+st.sidebar.markdown(f'<h1 style="color:#00C4CC;">DS SALARY </h1>', unsafe_allow_html=True)
 st.sidebar.markdown("### Job Salaries Analysis")
 st.sidebar.markdown("---")
 page = st.sidebar.radio(
@@ -216,7 +216,7 @@ if df.empty:
 # 1. EXECUTIVE SUMMARY (HOME PAGE)
 # ====================================================================
 if page == "1. Executive Summary 🚀":
-    st.markdown('<div class="main-header">DS Salary Trend Analysis</div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-header">DS Salary Analysis</div>', unsafe_allow_html=True)
     
     st.markdown(f"""
         <div style="text-align: center; color: #AAAAAA; font-size: 1.1em; margin-bottom: 40px;">
