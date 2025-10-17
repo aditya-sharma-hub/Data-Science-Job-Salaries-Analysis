@@ -204,7 +204,7 @@ page = st.sidebar.radio(
     ["1. Executive Summary 🚀", "2. Interactive Dashboard 📊", "3. Salary Predictor 🧠"]
 )
 st.sidebar.markdown("---")
-st.sidebar.caption("Project by: Unified Mentor")
+
 
 
 # --- 4. MAIN PAGE CONTENT ---
@@ -477,7 +477,7 @@ elif page == "3. Salary Predictor 🧠":
     st.markdown("Harness the power of the **Gradient Boosting Regressor** to estimate your market value.")
     st.markdown("---")
     
-    st.warning("⚠️ **NOTE:** The prediction is **SIMULATED** as the model file was not provided. The explanation below details the logic of the simulation.")
+   
 
     # --- Prediction Form Layout ---
     with st.form("salary_prediction_form"):
