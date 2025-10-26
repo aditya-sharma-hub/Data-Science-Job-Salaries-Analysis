@@ -80,7 +80,7 @@ To analyze and model salary data for Data Science roles across the world. The go
 ## 🧠 Author
 
 **Aditya Sharma**  
-_Machine Learning Enthusiast | Data Science Explorer_
+_Machine Learning Enthusiast | Data Scienctist_
 
 ---
 
